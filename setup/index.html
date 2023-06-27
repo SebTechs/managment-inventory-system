@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>First time setup.</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' href='/css/main.css'>
+    <link rel='stylesheet' type='text/css' href='/css/setup.css'>
+</head>
+<body>
+        <div class = "setup">
+        <h2>Management System</h2>
+        <h3>First time setup</h3>
+        <p class = "sub-info">This is the first time setup. You only have to do this once at the beggining and then never again asssuming you don't delete this.</p>
+        <h4>User information.</h4>
+        <form method="post">
+            <p>General Information</p>
+            <p class = "sub-info">This is some information so we can get an understanding of you. To be able to create your account. And in addition add security.</p>
+            <input type = "text" placeholder="Name"><br>
+            <input placeholder="Admin Username"><br>
+            <input type = "email" placeholder="Email addresses"><br>
+            <p>Password setup</p>
+            <p class = "sub-info">Please enter a password below to be able to log into your account after setup.</p>
+            <p class ="incorrect" style = "display: none;">Password does not match</p>
+            <input type = "password" placeholder="Password"><br>
+            <input type = "password" placeholder="Repeat Password"><br>
+            <p>Recovery Information.</p>
+            <p class = "sub-info">These are question that can be used to recover your account in the event that you lose your email access and forogt your password/username.</p>
+            <select style = "margin-bottom: 10px;">
+                <option>What is your mothers madien name?</option>
+                <option>What is your first pet's name?</option>
+                <option>At which hospital were you born at?</option>
+                <option>Name of your first girlfriend?</option>
+                <option>What was your first car?</option>
+                <option>What elementary / primary school did you attend?</option>
+                <option>Other</option>
+            </select><br>
+            <input type = "text" placeholder="Answer">
+            <p>Master password</p>
+            <p class = "sub-info">This is the master password. When editing the database/deleting items this will be required to be entered to authenticate actions. Make sure you keep it safe. It can be difficult to recover this password.</p>
+            <input type = "password" placeholder="Master password"><br>
+            <input type = "password" placeholder="Repeat Master password"><br>
+            <p>Terms and condition / Terms of use.</p>
+            <p class = "sub-info">Some little bit of condition to make sure we are on the same page and what happens with data.</p>
+            <input type = "checkbox"><span>I agree to the <a href = "/termsofcondition/">terms and condition.</a></span><br>
+            <input type="submit" value="Setup">
+        </form>
+        <p class = "copy-right">Copyright © sebsnetwork 2023</p>    
+    </div>
+    
+    
+</body>
+</html>
